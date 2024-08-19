@@ -291,9 +291,7 @@ Here are the provided citations:`;
     const questions = [
         "What is the Indian Constitution?",
         "Explain Indian criminal law",
-        "How does civil law work in India?",
-        "What are fundamental rights in India?",
-        "Explain the Indian judicial system"
+        "What are fundamental rights in India?"
     ];
     const suggestionsHtml = questions.map(q => `<span class="question">${q}</span>`).join('');
     document.getElementById('suggestions').innerHTML = suggestionsHtml;
